@@ -16,8 +16,8 @@ class ProductApi extends GetConnect {
               nome: json['nome'],
               valor: json['valor'].toDouble(),
               descricao: json['descricao'],
-              createdAt: json['created_at'], // Corrected key
-              updatedAt: json['updated_at'], // Corrected key
+              createdAt: json['created_at'], 
+              updatedAt: json['updated_at'], 
             ))
         .toList();
   }
